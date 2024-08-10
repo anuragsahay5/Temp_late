@@ -3,13 +3,12 @@ using namespace std;
 
 class DSU
 {
-
-public:
     int nodes;
     int number_of_components;
     vector<int> ultimate_parent;
     vector<int> size;
 
+public:
     DSU(int n)
     {
         nodes = n;
